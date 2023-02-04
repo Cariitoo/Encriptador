@@ -1,0 +1,131 @@
+*{
+    background: #F5EBE0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.logo{
+
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 8%;
+
+}
+
+.titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 23px;
+    margin: 0px 0px 0px 350px;
+    color: gray;
+  
+}
+
+main{
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.areaTexto{
+    
+    width: 750px;
+    height: 400px;
+    border: none;
+    border-radius: 12px;
+    background: #F0DBDB;
+    text-transform: lowercase;
+    padding: 30px ;
+    margin: 25px 25px 20px 15px;
+}
+
+::placeholder{color: #DBA39A;}
+    .areaTexto:focus{
+        outline: none;
+    }
+
+.mensaje{    
+
+    float: right;
+    padding: 30px ;
+    width: 350px;;
+    height: 450px;    
+    background-image: url("imagenes/lupa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-radius: 12px;
+    background-color: white;
+    margin: 25px 25px 20px 10px;
+    border: none
+
+    
+}
+.mensaje:focus{
+    outline: none;
+  
+
+}
+
+.botones{
+    margin-left: 250px;
+    padding: auto;
+    }
+
+.btnDesencriptar{
+
+    background-color: #F0DBDB ;
+    border: 1px solid #DBA39A;
+    border-radius: 12px;
+    color: #DBA39A;
+    cursor: pointer;
+    height: 33px ;
+    width: 164px;
+}
+
+.btnEncriptar{
+    background-color:#DBA39A;
+    border: 1px solid #DBA39A;
+    border-radius: 12px;
+    color: #F0DBDB ;
+    cursor: pointer;
+    height: 33px ;
+    width: 164px;
+}
+
+.copiar{
+    background-color: #F0DBDB ;
+    border: 1px solid #DBA39A;
+    border-radius: 12px;
+    color: #DBA39A;
+    cursor: pointer;
+    height:33px ;
+    width: 164px
+   
+}
+
+.informacion{
+    margin-left: 275px;
+    color: gray;
+    font-size: 10px;
+}
+
+.pie{
+    width: 8%;
+    text-align: center;
+    padding: 10px;
+    color: #DBA39A;
+
+}
+
+footer{
+
+    text-align: center;
+    color: #DBA39A;
+    font-size: 16px;
+    margin-bottom: 3%;
+
+}

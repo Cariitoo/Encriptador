@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+
+</head>
+
+<header>
+    <img src="\imagenes\logos.png" alt="logo" class="logo"/>
+    <h1 class="titulo"> Encriptador de texto </h1>
+</header>
+
+<body>
+
+    <main>
+        <section>
+            <textarea class="areaTexto" cols="30" rows="10" placeholder="Ingrese su texto para encriptar aqui..."></textarea>     
+
+            <div class="botones">
+                <button class="btnEncriptar" id="Encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptar" id="Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            <div>
+                <h6 class="informacion">solo letras minusculas y sin acentos</h6>
+            </div>
+        </section>  
+        <section>
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+            <!--
+            <div>
+                <button class="copiar" id="copiar">Copiar</button>
+            </div>/ -->
+       </section>
+    </main>
+    <footer>
+        <img class="pie" src="\imagenes\logos.png" alt="logo" class="logo"/>
+        <p class="copyright">&copy Diseñado por Dhanna Carolina - 2023</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
