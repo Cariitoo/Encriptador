@@ -53,7 +53,7 @@ main{
     padding: 30px ;
     width: 350px;;
     height: 450px;    
-    background-image: url("imagenes/lupa.png");
+    background-image: url("lupa.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
